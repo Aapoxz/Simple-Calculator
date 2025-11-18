@@ -14,5 +14,5 @@ elif choice == "minus":
     print(number1 - number2)
 elif choice == "multiply":
     print(number1 * number2)
-if choice == "division":
+elif choice == "division":
     print(number1 / number2)

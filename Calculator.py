@@ -8,11 +8,11 @@ if choice == "squareroot":
 number1 = int(input("Number 1: "))
 number2 = int(input("Number 2: "))
 
-if choice == "plus":
+elif choice == "plus":
     print(number1 + number2)
-if choice == "minus":
+elif choice == "minus":
     print(number1 - number2)
-if choice == "multiply":
+elif choice == "multiply":
     print(number1 * number2)
 if choice == "division":
     print(number1 / number2)
